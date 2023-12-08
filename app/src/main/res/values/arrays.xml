@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sex_options">
+        <item>Мужской</item>
+        <item>Женский</item>
+    </string-array>
+    <string-array name="user_type">
+        <item>Арендатор</item>
+        <item>Арендодатель</item>
+    </string-array>
+</resources>

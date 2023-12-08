@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QazRent</string>
+    <string name="registration_error" />
+    <string name="registration_successful" />
+    <string name="passwords_do_not_match">\n</string>
+    <string name="fill_all_fields" />
+    <string name="select_sex">Выберите пол</string>
+    <string name="textReg">РЕГИСТРАЦИЯ</string>
+    <string name="textLog">ВОЙТИ</string>
+    <string name="select_user_type">Выберите вид пользователя</string>
+</resources>

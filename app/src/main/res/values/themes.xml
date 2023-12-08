@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.QazRent" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/colorButtonDefault</item>
+        <item name="backgroundColor">@color/colorButtonPressed</item>
+        <item name="colorAccent">@color/colorButtonFocused</item>
+    </style>
+
+    <style name="SpinnerTheme" parent="ThemeOverlay.AppCompat">
+        <item name="android:textColor">@color/black</item> <!-- Цвет текста в Spinner -->
+        <item name="android:popupBackground">@color/white</item>
+        <item name="colorPrimary">@color/colorButtonDefault</item>
+        <item name="backgroundColor">@color/colorButtonPressed</item>
+        <item name="colorAccent">@color/colorButtonFocused</item>
+    </style>
+
+
+    <style name="Theme.QazRent" parent="Base.Theme.QazRent" />
+</resources>

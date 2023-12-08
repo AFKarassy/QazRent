@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/regText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="регистрация пользователей"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:gravity="center_horizontal"
+                android:textStyle="bold">
+            </TextView>
+
+            <EditText
+                android:id="@+id/editTextLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:layout_below="@+id/regText"
+                android:hint="Введите почту"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editTextLogin"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp"
+                android:hint="Придумайте пароль"
+                android:inputType="textPassword"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/editTextConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:layout_below="@id/editTextPassword"
+                android:layout_marginTop="16dp"
+                android:hint="Подтвердите пароль"
+                android:inputType="textPassword"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/editTextFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:layout_below="@id/editTextConfirmPassword"
+                android:layout_marginTop="16dp"
+                android:hint="Фамилия"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:layout_below="@id/editTextFirstName"
+                android:layout_marginTop="16dp"
+                android:hint="Имя"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/editTextLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:layout_below="@id/editTextName"
+                android:layout_marginTop="16dp"
+                android:hint="Отчество"
+                android:minHeight="48dp" />
+
+
+            <Spinner
+                android:id="@+id/spinnerSex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editTextLastName"
+                android:layout_marginTop="16dp"
+                android:entries="@array/sex_options"
+                android:minHeight="48dp"
+                android:prompt="@string/select_sex"/>
+
+
+            <Spinner
+                android:id="@+id/spinnerUserType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editTextLastName"
+                android:layout_marginTop="16dp"
+                android:entries="@array/user_type"
+                android:minHeight="48dp"
+                android:prompt="@string/select_user_type" />
+
+            <EditText
+                android:id="@+id/editTextIIN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:layout_below="@id/spinnerSex"
+                android:layout_marginTop="16dp"
+                android:hint="ИИН"
+                android:inputType="number"
+                android:minHeight="48dp" />
+
+            <Button
+                android:id="@+id/buttonRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editTextIIN"
+                android:layout_marginTop="16dp"
+                android:text="Регистрация"
+                android:onClick="register"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

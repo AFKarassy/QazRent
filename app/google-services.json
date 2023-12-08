@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "829839962037",
+    "firebase_url": "https://qazrent-32712-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "qazrent-32712",
+    "storage_bucket": "qazrent-32712.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829839962037:android:3959bb74355212cf97b3fc",
+        "android_client_info": {
+          "package_name": "com.example.qazrent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829839962037-0lpaucfio74r7qm5qkevktg5tctvesb9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.qazrent",
+            "certificate_hash": "059e723d6f4c52f21d31a8ba92a74b9469b91ca7"
+          }
+        },
+        {
+          "client_id": "829839962037-br48r4ncm48tet3ocht46tb2t311sirf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqaV_E6l8BGw263EuneHHhD5z7-xFPZoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829839962037-br48r4ncm48tet3ocht46tb2t311sirf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
